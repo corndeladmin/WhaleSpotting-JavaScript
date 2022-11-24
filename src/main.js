@@ -1,2 +1,5 @@
+function main() {
 
-console.log("Ree");
+}
+
+main();
