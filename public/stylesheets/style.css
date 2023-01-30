@@ -1,0 +1,75 @@
+button {
+  all: unset;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+nav {
+  position: sticky;
+  box-sizing: border-box;
+  background-color: #A7C7E7;
+  height: 50px;
+  width: 100%;
+}
+
+nav ul {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-direction: row;
+  margin:0;
+  padding: 0px;
+  height: 100%;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  vertical-align: middle;
+  list-style: none;
+  margin: 10px;
+  height: auto;
+}
+
+nav li a {
+  border: solid black 2px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+nav button {
+  background-color: white;
+  border: solid black 2px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .right {
+  margin-inline-start: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.italic {
+  font-style: italic;
+}
+
+a {
+  text-decoration-line: none;
+}
